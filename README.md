@@ -35,7 +35,7 @@ O projeto é uma aplicação de reconhecimento facial baseada em aprendizado loc
 ## Estrutura do Projeto
 
 ```bash
-IA/
+AI/
 │
 ├── main.py          # Código principal para reconhecimento facial
 ├── treinar.py       # Código para capturar imagens e treinar o modelo
