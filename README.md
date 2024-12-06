@@ -59,20 +59,15 @@ python treinar.py
 
 ### Passo 2: Treinamento do Modelo
 
-O modelo será automaticamente treinado ao executar o script principal treinar.py.
-
-```bash
-python treinar.py
-```
-
-### Passo 3: Reconhecimento Facial
-
-Execute o script main.py:
+O modelo será automaticamente treinado ao executar o script principal main.py.
 
 ```bash
 python main.py
 ```
 
+### Passo 3: Reconhecimento Facial
+
+Após a execução do treinamento no passo anterior:
 
 1- O programa iniciará o reconhecimento facial em tempo real.
 
@@ -80,7 +75,7 @@ python main.py
 
 3- Para o usuário que estiver cadastrado, o acesso será liberado. Para desconhecidos, não.
 
-3- Para encerrar o programa, pressione "q".
+4- O programa poderá ser encerrado pressionando "q".
 
 ## Contribuidores
 
