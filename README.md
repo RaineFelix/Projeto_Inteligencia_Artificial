@@ -1,6 +1,6 @@
-# Projeto de Reconhecimento Facial 
+# Projeto de Reconhecimento Facial com liberação de acesso em portaria
 
-Este projeto utiliza Python e OpenCV para criar uma aplicação de reconhecimento facial. 
+Este projeto utiliza Python e OpenCV para criar uma aplicação de reconhecimento facial, simulando a liberação de acesso em uma portaria de condomínio.
 
 ## Índice
 - [Descrição](#descrição)
@@ -59,10 +59,10 @@ python treinar.py
 
 ### Passo 2: Treinamento do Modelo
 
-O modelo será automaticamente treinado ao executar o script principal main.py.
+O modelo será automaticamente treinado ao executar o script principal treinar.py.
 
 ```bash
-python main.py
+python treinar.py
 ```
 
 ### Passo 3: Reconhecimento Facial
@@ -78,7 +78,9 @@ python main.py
 
 2- As faces detectadas aparecerão com caixas delimitadoras e os nomes associados serão exibidos na tela.
 
-3- Pressione q para encerrar o programa.
+3- Para o usuário que estiver cadastrado, o acesso será liberado. Para desconhecidos, não.
+
+3- Para encerrar o programa, pressione "q".
 
 ## Contribuidores
 
